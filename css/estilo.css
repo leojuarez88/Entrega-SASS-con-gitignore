@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration-style: none; }
+
+/* Body */
+.container {
+  background-color: skyblue; }
+
+/* Header */
+header {
+  background-color: white; }
+  header nav .navBarM {
+    background-color: white; }
+
+h2 {
+  color: grey;
+  font-size: 3rem; }
+
+/* Pagina de inicio */
+.imgInicio {
+  object-fit: cover;
+  width: 600px;
+  height: 500px; }
+
+section {
+  text-transform: uppercase; }
+  section .parrafoInicio {
+    margin: 25px; }
+
+/* FOOTER  */
+footer {
+  background-color: greenyellow;
+  color: green;
+  font-size: 1.8rem; }
+  footer ul {
+    text-transform: uppercase; }
+    footer ul li {
+      font-size: 2rem; }
+      footer ul li a {
+        color: green !important; }
+        footer ul li a:hover {
+          background-color: aqua; }
+
+/* Pagina de productos */
+.imgProductos {
+  height: 300px;
+  object-fit: cover; }
+
+.imgProducto1 {
+  margin: 7px; }
+
+.btnColor1 {
+  background-color: darkcyan;
+  color: white;
+  font-size: 1.2rem; }
+
+/* Pagina de contacto */
+.imgContacto {
+  object-fit: cover;
+  width: 500px;
+  height: 400px; }
+
+.textStrong {
+  text-transform: uppercase;
+  font-weight: bold; }
+
+/* Pagina de Formas de pago */
+.menuFormPago {
+  background-color: darkcyan; }
+
+.textColor {
+  color: white; }
+
+.fondoColorGradiente {
+  background: linear-gradient(to right, #1bc5c5, darkcyan);
+  color: white;
+  font-size: 1.2rem; }
